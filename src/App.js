@@ -4,6 +4,7 @@ import { TakeSelfie } from "./components/takeSelfie";
 import { useState } from "react";
 import { Header } from "./components/header";
 import { Captcha } from "./components/captcha";
+import { MovingSquare } from "./components/randomSqure";
 
 function App() {
   const [selfie, setSelfie] = useState(false);
@@ -61,8 +62,8 @@ function App() {
         <Header captcha={captcha} index={index} />
         {/* <div className="App-logo"> <img id="image"src="images/nature.jpg"  alt="logo" /></div> */}
         <div className="App-logo">
-          {" "}
           <TakeSelfie setSelfie={setSelfie}></TakeSelfie>
+          { !selfie && <MovingSquare></MovingSquare>}
         </div>
 
         {captcha && (

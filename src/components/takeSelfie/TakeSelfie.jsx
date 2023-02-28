@@ -38,7 +38,7 @@ function TakeSelfie({ setSelfie }) {
       ) : (
         <>
           <img src={img} alt="screenshot" />
-          <button className="btn_photo" onClick={() => setImg(null)}>
+          <button className="btn_photo" onClick={() => {setImg(null);setSelfie(false)}}>
             Retake photo
           </button>
         </>
