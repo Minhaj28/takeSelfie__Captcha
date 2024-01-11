@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/takeSelfie__Captcha/static/css/main.5d759c00.css",
+    "main.js": "/takeSelfie__Captcha/static/js/main.a5985c11.js",
+    "static/js/787.5be39dbe.chunk.js": "/takeSelfie__Captcha/static/js/787.5be39dbe.chunk.js",
+    "static/media/logo.svg": "/takeSelfie__Captcha/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/takeSelfie__Captcha/index.html",
+    "main.5d759c00.css.map": "/takeSelfie__Captcha/static/css/main.5d759c00.css.map",
+    "main.a5985c11.js.map": "/takeSelfie__Captcha/static/js/main.a5985c11.js.map",
+    "787.5be39dbe.chunk.js.map": "/takeSelfie__Captcha/static/js/787.5be39dbe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d759c00.css",
+    "static/js/main.a5985c11.js"
+  ]
+}
